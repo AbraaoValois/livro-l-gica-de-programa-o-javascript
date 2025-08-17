@@ -9,7 +9,7 @@ O objetivo é reforçar conceitos de **lógica de programação**, **estruturas 
 
 - **cap01/** → Introdução, primeiros exercícios e exemplos.  
 - **cap02/** → Integração com HTML.
-- **cap03/** → Construção de algoritimos com Noje.js.  
+- **cap03/** → Construção de algoritimos com Node.js.  
   
 - *(demais capítulos serão adicionados conforme avanço nos estudos).*
 
