@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(233, 241, 241);
+        }
+        h1{
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            width: 500px;
+            height: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form, p {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        p {
+            margin: 0 0 10px 0;
+        }
+
+        input[type="submit"]{
+            background-color: #4CAF50;
+            color: white; 
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="title"><h1>Programa Situação do Aluno</h1></div>
+
+    <div class="form">
+        <form>
+            <p>Nome do Aluno:</p>
+            <input type="text" id="inNome" required>
+
+            <p>Nota 1º Bimestre:</p>
+            <input type="number" step="0.1" min="0" max="10" id="inNota1" required>
+
+            <p>Nota 2º Bimestre:</p>
+            <input type="number" step="0.1" min="0" max="10"  id="inNota2" required>   
+
+            <p>Nota 3º Bimestre:</p>
+            <input type="number" step="0.1" min="0" max="10" id="inNota3" required>
+
+            <p>Nota 4º Bimestre:</p>
+            <input type="number" step="0.1" min="0" max="10" id="inNota4" required>
+
+            <input type="submit" value="Calcular Situação">
+    </form>
+    </div>
+
+    <h2></h2>   
+    <h3></h3> 
+
+    <script src="./arqjscap04/ex4_1.js"></script>
+</body>
+</html>
