@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXEMPLO 4 DO CAPITULO 5 - REPETIÇÕES - break e continue</title>
+</head>
+<body>
+    <script>
+        alert(`Digite 0 para sair`)
+
+        do {
+            const num = Number(prompt(`Número: `)) //Lê o número
+            if (num == 0  || isNaN(num)) {
+                const sair = confirm(`Confirmar a saída?`) //solicita confirmação do usuário
+
+                if (sair) {
+                    break //sai da repetição
+
+                } else {
+                    continue //volta ao início da repetição
+
+                }
+            }
+
+            if (num % 2 == 0) {
+                alert(`O dobro de ${num} é ${num * 2}`) //mostra o dobro
+
+            } else {
+                alert(`O triplo de ${num} é ${num * 3}`) //mostra o triplo
+            }
+        } while (true); //enquanto verdade (só sai do laço pelo break)
+
+        alert(`Fim do programa!`) //mensagem final
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXEPLO 3 DO CAPITULO 5 - REPETIÇÕES - DO WHILE </title>
+</head>
+<body>
+    <script>
+        let num //declarando uma variável num com let, pois ela pode ser alterada.
+
+                // e será acessada fora do bloco do while.
+        do {    //cria o laço de repetição (faça...)
+         num = Number(prompt('Número: ')) //atribui o valor digitado à variável num.
+         if (num == 0 || isNaN(num)){       //se num = 0 ou é inválido (NaN)
+            alert("Digite um número válido!") //mostra o alerta.
+
+         }
+        } while (num == 0 || isNaN(num)); //repete enquanto num = 0 ou é inválido (NaN)
+        let pares = `Pares entre 1 e ${num}; ` //string que irá conter a resposta
+        for (let i = 2; i <= num; i += 2) {
+            pares = pares + i + ' , ' //concatena os números pares na string
+        }
+
+        alert(pares) //mostra a resposta5
+    </script>
+</body>
+</html>
