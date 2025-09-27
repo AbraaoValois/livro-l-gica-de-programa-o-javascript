@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Estudo sobre Lógica de Programação e Algoritmos com JavaScript
 =======
 # 📘 Estudos do Livro: Lógica de Programação e Algoritmos com JavaScript
@@ -40,4 +40,4 @@ O objetivo é reforçar conceitos de **lógica de programação**, **estruturas 
 1. Clone este repositório:
    ```bash
    git clone https://github.com/AbraaoValois/livro-l-gica-de-programa-o-javascript.git
->>>>>>> dbda9fc680bb6a30d162ef60bdb994c9d222e277
+
