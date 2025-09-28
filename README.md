@@ -13,7 +13,8 @@ O objetivo é reforçar conceitos de **lógica de programação**, **estruturas 
 - **cap01/** → Introdução, primeiros exercícios e exemplos.  
 - **cap02/** → Integração com HTML.
 - **cap03/** → Construção de algoritimos com Node.js.
-- **cap04/** → Condições if, else 
+- **cap04/** → Condições if, else
+- **cap05/** → Repetições (loops)
   
 - *(demais capítulos serão adicionados conforme avanço nos estudos).*
 
